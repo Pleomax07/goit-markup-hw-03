@@ -1,6 +1,6 @@
 :root {
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 
   /* text color */
   --main-cl-txt: #757575;
@@ -26,6 +26,24 @@ body {
   list-style-type: none;
   color: var(--main-cl-txt);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 /*
 ==========================
@@ -44,10 +62,37 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.current {
+.header-link:hover,
+.header-link:focus {
   color: var(--btn-cl-accent);
 }
 
+.current {
+  color: var(--btn-cl-accent);
+}
+.heder-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 93px;
+}
+.header-contacts {
+
+  margin-left: auto;
+}
+.header-list {
+  display: flex;
+}
+.header-link { 
+margin-right: 50px;
+}
+.header-link:last-child {
+ margin-right: 0;
+}
+.mail {
+  margin-right: 50px;
+}
 /*
 ==========================
 | main section
@@ -56,6 +101,18 @@ body {
 .link {
   text-decoration: none;
 }
+.container {
+  outline: 1px solid red;
+
+  width: 1200px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+
+  margin-right: auto;
+}
+
 .btn {
   font-family: var(--main-font);
   font-weight: 500;
