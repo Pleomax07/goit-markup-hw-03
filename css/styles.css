@@ -1,0 +1,214 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* text color */
+  --main-cl-txt: #757575;
+  --list-cl-txt: #212121;
+  --logo-cl-heder: #000000;
+  --logo-cl-footer: #ffffff;
+  --btn-cl-txt: #ffffff;
+
+  /* background color */
+  --background-cl-dark: #2f303a;
+  --background-cl-grey: #f5f4fa;
+  --background-cl-white: #ffffff;
+  --btn-cl-accent: #2196f3;
+  --btn-background-cl: #f5f4fa;
+  --hero-btn-cl: #2196f3;
+  --hero-btn-accent: #188ce8;
+}
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  list-style-type: none;
+  color: var(--main-cl-txt);
+}
+
+/*
+==========================
+| header section
+==========================
+*/
+
+.logo-black {
+  color: var(--logo-cl-heder);
+}
+.header-link {
+  color: var(--list-cl-txt);
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.current {
+  color: var(--btn-cl-accent);
+}
+
+/*
+==========================
+| main section
+==========================
+*/
+.link {
+  text-decoration: none;
+}
+.btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--btn-background-cl);
+  border-radius: 4px;
+  color: var(--list-cl-txt);
+  cursor: pointer;
+  border: none;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--btn-cl-accent);
+  color: var(--btn-cl-txt);
+}
+.hero {
+  background-color: var(--background-cl-dark);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-btn {
+  width: 200px;
+  height: 50px;
+
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  border: none;
+
+  color: var(--btn-cl-txt);
+  background-color: var(--hero-btn-cl);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--btn-cl-accent);
+  color: var(--btn-cl-txt);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.name-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--list-cl-txt);
+  letter-spacing: 0.06em;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--list-cl-txt);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--list-cl-txt);
+}
+.speciality {
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+
+  color: var(--list-cl-txt);
+}
+.teem {
+  background-color: var(--background-cl-grey);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*
+==========================
+| footer section
+==========================
+*/
+.footer {
+  background-color: var(--background-cl-dark);
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: var(--btn-cl-accent);
+}
+.logo-white {
+  color: var(--logo-cl-footer);
+}
+.address {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: currentColor;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--btn-cl-accent);
+}
