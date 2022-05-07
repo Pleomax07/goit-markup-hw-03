@@ -425,6 +425,7 @@ ul {
   font-style: normal;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 9px;
 }
 
 .footer-contacts {
@@ -434,6 +435,10 @@ ul {
   font-style: normal;
   letter-spacing: 0.03em;
   color: currentColor;
+  margin-bottom: 9px;
+}
+.footer-contacts:last-child {
+  margin-bottom: 0;
 }
 .contacts:hover,
 .contacts:focus {
